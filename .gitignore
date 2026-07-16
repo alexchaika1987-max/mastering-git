@@ -1,0 +1,42 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Зависимости
+node_modules/
+.pnpm-store/
+
+# Сборка и тестирование
+dist/
+build/
+coverage/
+.vite/
+.cache/
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# Логи
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+
+# Временные файлы редакторов
+*.swp
+*.swo
+*.tmp
+*~
+
